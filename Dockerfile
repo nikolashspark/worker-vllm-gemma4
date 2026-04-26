@@ -1,5 +1,5 @@
 FROM runpod/worker-v1-vllm:dev-refs-pull-277-merge
-# vLLM
+# vLLM 1
 RUN pip install --upgrade --force-reinstall \
       "vllm==0.19.1" \
       --extra-index-url https://download.pytorch.org/whl/cu129 \
